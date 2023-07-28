@@ -11,6 +11,10 @@
   --clr-gray-dark-1: #333;
   --clr-gray-dark-2: #777;
   --clr-gray-dark-3: #999;
+
+  --clr-white: #fff;
+
+  --shadow-dark: 0 2rem 6rem rgba(0, 0, 0, 0.3);
 }
 
 *,
@@ -31,8 +35,6 @@ body {
   color: var(--clr-gray-dark-2);
   min-height: 100vh;
   text-rendering: optimizeSpeed;
-  display: flex;
-  flex-direction: column;
   background-image: linear-gradient(
     to right bottom,
     var(--clr-primary-light),
