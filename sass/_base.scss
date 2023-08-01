@@ -20,6 +20,12 @@
   --line: 1px solid var(--clr-grey-light-2);
 }
 
+$bp-largest: 75em;
+$bp-large: 68.75em;
+$bp-medium: 56.25em;
+$bp-small: 37.5em;
+$bp-smallest: 31.25em;
+
 *,
 *::before,
 *::after {
@@ -30,6 +36,9 @@
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
+  @media (max-width: $bp-large) {
+    font-size: 50%;
+  }
 }
 body {
   font-family: "Open Sans", sans-serif;
